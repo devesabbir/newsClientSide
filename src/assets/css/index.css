@@ -1,0 +1,120 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: 'SolaimanLipi', Arial, sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+figure{
+  margin: 0 !important;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  border: 0;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  border: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+button,
+[role="button"] {
+  cursor: pointer;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: transparent;
+  background-image: none;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+   max-width: 1700px !important;
+   width: 100%;
+   padding: 0 3% !important;
+}
+
+.border-inner-right {
+  border-right: 1px solid #ddd;
+}
+
+.border-inner-left {
+  border-left: 1px solid #ddd;
+}
+.border-inner-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.headerNav {
+  background: #f0f0f0;
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  opacity: 1;
+}
+
+
+
+/* Responsive Css */
+@media (max-width:576px) {
+    .container{
+        padding: 0 10px !important;
+    } 
+}

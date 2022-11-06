@@ -1,0 +1,39 @@
+.enterTainmentGrid {
+     position: relative;
+}
+.enterTainmentGrid .imgResizeDesc{
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    z-index: 11;
+}
+.enterTainmentGrid .imgResizeDesc .title h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+
+.enterTainmentGrid .imgResizeDesc .brief p{
+    color: #f3f3f3;
+    font-size: 17px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.enterTainmentGrid::after{
+    background-image: linear-gradient(180deg,transparent,transparent 25%,#000);
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

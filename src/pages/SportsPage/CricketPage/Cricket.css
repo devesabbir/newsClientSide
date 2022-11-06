@@ -1,0 +1,9 @@
+.hoverBtn {
+   transition: all .4s;
+}
+
+.hoverBtn:hover {
+    box-shadow: 0px 12px 29px 52px rgba(237,193,193,0.98) inset;
+    -webkit-box-shadow: 0px 12px 29px 52px rgba(237,193,193,0.98) inset;
+    -moz-box-shadow: 0px 12px 29px 52px rgba(237,193,193,0.98) inset;
+}

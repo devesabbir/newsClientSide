@@ -1,0 +1,27 @@
+.sports-wrapper {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100%;
+}
+
+.desc a h5{
+    color: #000;
+    font-weight: 700;
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.desc a:hover h5{
+    color: #a62107;
+}

@@ -1,0 +1,27 @@
+.tableTitle {
+  background-color: #a62107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.tableTitle p {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.tableFooter {
+  background-color: #a62107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.tableFooter p {
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+}

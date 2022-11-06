@@ -1,0 +1,21 @@
+.card-title {
+    padding: 10px;
+}
+.card-title a{
+   color: #000;
+   transition: all .4s;
+}
+
+.leadNews:hover .card-title a{
+     color: #a62107;
+}
+
+.card-body p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    color: #000;
+}

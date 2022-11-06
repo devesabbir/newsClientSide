@@ -1,0 +1,4 @@
+.slick-slider button::after, .slick-slider button::before {
+     color: red;
+     font-size: 20px;
+}

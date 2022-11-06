@@ -1,0 +1,14 @@
+.slideCard{
+    background-color: #f5f5f5;
+    border-radius: 0%;
+    border: none;
+    padding: 0 10px;
+    border-width: 0 2px 0 0;
+    border-color: #ddd;
+    border-style: solid;
+}
+
+.slideCard .card-body {
+    border-left: 5px solid #ca8173;
+    padding: 0;
+}
